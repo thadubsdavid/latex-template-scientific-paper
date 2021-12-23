@@ -1,0 +1,29 @@
+\section{Implementierung}\label{chap:implementierung}
+Hier soll eine kurze Beschreibung der Herausforderungen und der wichtigen
+Eckdaten der Implementation des zuvor präsentierten Konzeptes vorgenommen
+werden. Gegebenenfalls wird hier noch auf die Evaluation der Implementation
+eingegangen und deren Messwerte interpretiert.
+
+\begin{lstlisting}[language=java, numbers=none, caption=Exemplarisches Beobachter-Muster]
+public enableProcessDisruptionSubject: Subject<THaDisruption> = new Subject();  
+public enableProcessDisruptionObservable: Observable<THaDisruption> = 		  this.enableProcessDisruptionSubject.asObservable(); 
+\end{lstlisting}
+
+\cleardoublepage
+
+%%%%%%%%%%%%%%% PSA Struktur %%%%%%%%%%%%%%%%%%%%%
+\begin{comment}
+\section{Projektplanung}\label{chap:projektplanung}
+
+\subsection{Projektstrukturplan}\label{sec:strukturplan}
+Hier steht, was in den restlichen Kapiteln behandelt wird. Die Einleitung endet mit diesem Abschnitt.
+
+\subsection{Projektzeitplan}\label{sec:zeitplan}
+Hier steht, was in den restlichen Kapiteln behandelt wird. Die Einleitung endet mit diesem Abschnitt.
+
+\subsection{Risikomanagement}\label{sec:risikomgmt}
+Hier steht, was in den restlichen Kapiteln behandelt wird. Die Einleitung endet mit diesem Abschnitt.
+\end{comment}
+
+
+
